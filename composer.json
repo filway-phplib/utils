@@ -1,0 +1,21 @@
+{
+    "name": "filway/utils",
+    "description": "php ",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Filway\\Utils\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "filway",
+            "email": "filway@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "alibabacloud/dysmsapi-20170525": "2.0.9",
+        "filway/component": "^1.0"
+    }
+}
